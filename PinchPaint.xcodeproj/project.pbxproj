@@ -7,23 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73B014AE2E04BA2600EDA2AC /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 73B014AD2E04BA2600EDA2AC /* AppIcon.icon */; };
-		73B014B82E04BABC00EDA2AC /* Hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B014AF2E04BABC00EDA2AC /* Hand.png */; };
-		73B014BA2E04BABC00EDA2AC /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B014B22E04BABC00EDA2AC /* Line.png */; };
-		73B851B42E04CA8F0088CB22 /* AppIconLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B851B32E04CA8F0088CB22 /* AppIconLight.png */; };
-		73B851B52E04CA8F0088CB22 /* AppIconDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B851B22E04CA8F0088CB22 /* AppIconDark.png */; };
-		73B851B92E04CE390088CB22 /* AppIconTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B851B82E04CE390088CB22 /* AppIconTransparent.png */; };
 		73B851BB2E04E5C50088CB22 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 73B851BA2E04E5BD0088CB22 /* README.md */; };
 		73B851BD2E04E5D50088CB22 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 73B851BC2E04E5CD0088CB22 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73B014AD2E04BA2600EDA2AC /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
-		73B014AF2E04BABC00EDA2AC /* Hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hand.png; sourceTree = "<group>"; };
-		73B014B22E04BABC00EDA2AC /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
-		73B851B22E04CA8F0088CB22 /* AppIconDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconDark.png; sourceTree = "<group>"; };
-		73B851B32E04CA8F0088CB22 /* AppIconLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconLight.png; sourceTree = "<group>"; };
-		73B851B82E04CE390088CB22 /* AppIconTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconTransparent.png; sourceTree = "<group>"; };
 		73B851BA2E04E5BD0088CB22 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73B851BC2E04E5CD0088CB22 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		73D7EDCE2DFC4A560001F4A2 /* PinchPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +28,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		733595B92E4BBFFB00414651 /* Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		73D7EDD02DFC4A560001F4A2 /* PinchPaint */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -61,41 +54,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		73B014B32E04BABC00EDA2AC /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				73B014AF2E04BABC00EDA2AC /* Hand.png */,
-				73B014B22E04BABC00EDA2AC /* Line.png */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		73B014B52E04BABC00EDA2AC /* AppIcon */ = {
-			isa = PBXGroup;
-			children = (
-				73B014B32E04BABC00EDA2AC /* Components */,
-				73B851B32E04CA8F0088CB22 /* AppIconLight.png */,
-				73B851B22E04CA8F0088CB22 /* AppIconDark.png */,
-				73B851B82E04CE390088CB22 /* AppIconTransparent.png */,
-				73B014AD2E04BA2600EDA2AC /* AppIcon.icon */,
-			);
-			path = AppIcon;
-			sourceTree = "<group>";
-		};
-		73B014BB2E04BB1A00EDA2AC /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				73B014B52E04BABC00EDA2AC /* AppIcon */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		73D7EDC52DFC4A560001F4A2 = {
 			isa = PBXGroup;
 			children = (
 				73B851BA2E04E5BD0088CB22 /* README.md */,
 				73B851BC2E04E5CD0088CB22 /* .gitignore */,
-				73B014BB2E04BB1A00EDA2AC /* Assets */,
+				733595B92E4BBFFB00414651 /* Assets */,
 				73D7EDD02DFC4A560001F4A2 /* PinchPaint */,
 				73D7EDCF2DFC4A560001F4A2 /* Products */,
 			);
@@ -125,6 +89,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				733595B92E4BBFFB00414651 /* Assets */,
 				73D7EDD02DFC4A560001F4A2 /* PinchPaint */,
 			);
 			name = PinchPaint;
@@ -174,13 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B851BD2E04E5D50088CB22 /* .gitignore in Resources */,
-				73B014AE2E04BA2600EDA2AC /* AppIcon.icon in Resources */,
-				73B851B42E04CA8F0088CB22 /* AppIconLight.png in Resources */,
-				73B851B92E04CE390088CB22 /* AppIconTransparent.png in Resources */,
-				73B851B52E04CA8F0088CB22 /* AppIconDark.png in Resources */,
-				73B014B82E04BABC00EDA2AC /* Hand.png in Resources */,
 				73B851BB2E04E5C50088CB22 /* README.md in Resources */,
-				73B014BA2E04BABC00EDA2AC /* Line.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
